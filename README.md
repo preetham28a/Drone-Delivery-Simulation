@@ -27,7 +27,6 @@ We added a feature that allows users to manually create restore points, load res
 
 We used the Memento design pattern to implement this feature as it directly aligned with the state preservation and restoration requirement the feature is addressing. Using a Memento design pattern, we represented a snapshot of the simulation through a memento and created a caretaker to handle all operations with these snapshots/Mementos (creating and loading). This framework provides more enhanced functionality with the incorporation of memento and caretaker and security with the help of encapsulation of the entities captured in each snapshot.
 
-Instructions to use the new feature
 
 The dashboard of the simulation consists of 3 buttons:
 
@@ -42,11 +41,6 @@ By pressing this button, it loads the last created restore point at that time, s
 3. “Reset Simulation”
 
 By pressing the button, it resets the simulation to its initial state upon loading, specifically updating the entities to their beginning configuration
-
-![WhatsApp Image 2024-05-05 at 22 46 05](https://media.github.umn.edu/user/27146/files/7a290c60-68ce-4922-992d-36687632aa25)
-
-
-
 
 
 We have implemented a feature to collect the data from the simulation based on the entity interaction with other entities to analyze the lower scale model on a large business scale perspective. It mainly collects various metric data points for entities such as drones, robots, and packages. It is interesting because the collection of metrics such as average speed, number of deliveries, total distance traveled, total delivery time, and pickup and dropoff coordinates for drones will give a good estimate and perspective on how to improve the idea of drone delivery system when being implemented on a large scale business. This is because simulations are cost-effective ways of identifying and understanding a specific part of any software mainly addressing the issue to maximize the efficiency with minimum resources and still maintain a good monetary income for the product to keep running in the local and global markets. These data points will let the creator or the company help in analyzing the inefficiencies that can be improved to develop a more robust and effective system as real-world expenses on running such a complex system systems will require many resources. In the mindset, to utilize all resources efficiently and to serve the purpose of the simulation model, these data points will help in analyzing the situations more effectively. In addition to the existing simulation, the extension takes in an extra class which single-handedly is responsible for handling the collection of data which is extended to various entities and sent to a specific output location to store data. The design pattern chosen for the extension implementation is the Singleton pattern and the reason for this design pattern is that we wanted to ensure that there is only one instance of the ⁠class responsible for data collection throughout the simulation. This is important since multiple instances would lead to conflicts in the data collection such as data duplication or inconsistencies. Most importantly, the Singleton pattern provides a global point of access to the ⁠ DataCollector ⁠ instance which is beneficial for various parts of the simulation and eliminates the need to pass the ⁠ DataCollector ⁠ instance around reducing coupling. There is no specific procedure to simulate this extension as it is not user interactable rather the user can follow the steps for running the simulation as described in the earlier section above and try out various patterns with the drone and delivering packages, and lastly, at the end of stop administration command there would be a couple of CSV files available in the project directory which can be opened to view the collected data.
