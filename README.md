@@ -71,11 +71,8 @@ Operational Efficiency:
 Average Speed vs. Time Taken: We can see that higher speeds don't always correlate with faster delivery times due to route complexities. 
 [Excel 1](https://docs.google.com/spreadsheets/d/1P5igbTkiQJQlGSdLBzKcYXwU2VSWvy6TnFJwBvVBAwk/edit#gid=2030865217)
 
-![WhatsApp Image 2024-05-05 at 23 00 48](https://media.github.umn.edu/user/27146/files/38d4ead8-2565-4386-9fd3-bf136ce6f452)
-
 
 Solution: Businesses should focus on optimizing routing algorithms, such as implementing dynamic and adaptive pathfinding based on real-time data, rather than solely increasing drone speed.
-
 
 
 Number of deliveries per drone vs the total time taken:
@@ -83,21 +80,10 @@ Number of deliveries per drone vs the total time taken:
 As we can see in the graph, balancing the delivery load across drones can significantly reduce overall delivery times, enhancing operational efficiency and reducing drone wear and tear. 
 [Excel 1](https://docs.google.com/spreadsheets/d/1P5igbTkiQJQlGSdLBzKcYXwU2VSWvy6TnFJwBvVBAwk/edit#gid=2030865217)
 
-
-![WhatsApp Image 2024-05-05 at 23 00 47](https://media.github.umn.edu/user/27146/files/42376833-7a78-406d-bcc7-0f37f9439b34)
-
-
 Average speed vs total distance:
 Here, the graph shows that while drones maintain consistent speeds, the variation in total distance traveled suggests a need for more efficient route planning to reduce operational costs and improve fuel efficiency.
 [Excel 1](https://docs.google.com/spreadsheets/d/1P5igbTkiQJQlGSdLBzKcYXwU2VSWvy6TnFJwBvVBAwk/edit#gid=2030865217)
-
-
-
-![WhatsApp Image 2024-05-05 at 23 00 48 (1)](https://media.github.umn.edu/user/27146/files/518aece8-8372-4bc5-a6dd-ed6466f7b271)
-
-
 [Excel 2](https://docs.google.com/spreadsheets/d/1T1NkYQs8Z000cRWlfgMSpMzMzqPoMcqKjnacRHsKHY8/edit#gid=0)
 
-![WhatsApp Image 2024-05-05 at 23 04 22](https://media.github.umn.edu/user/27146/files/f9f4bdfa-af20-4db8-9f73-b3ca70f1f1bc)
 
 
