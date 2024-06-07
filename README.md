@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # Drone-Delivery-Simulation
-=======
+
 The project is a simulation for a drone delivery system across the University of Minnesota - Twin Cities campus. Within this system, deliveries can be scheduled across the map of the campus and these deliveries are scheduled individually between two location points using a specific search strategy. After the delivery is scheduled, the drone will move towards picking up the package and delivering it to a desired destination to a Robot entity waiting to receive the package. The drone delivery simulation system also consists of other entities like Humans and a Helicopter which enhances the realisticness of the simulation. 
 
 The drone delivery system provides the ability to action replay by creating and loading restore points manually allowing backtracking within the simulation. Moreover, the simulation allows for restoring to the start of the simulation state. Additionally, the simulation collects data on deliveries that are scheduled over the course of the simulation which provides an in-depth analytical analysis of entity movements throughout the simulation aiding in establishing a business perspective for the simulation. 
@@ -87,7 +86,3 @@ Average speed vs total distance:
 Here, the graph shows that while drones maintain consistent speeds, the variation in total distance traveled suggests a need for more efficient route planning to reduce operational costs and improve fuel efficiency.
 [Excel 1](https://docs.google.com/spreadsheets/d/1P5igbTkiQJQlGSdLBzKcYXwU2VSWvy6TnFJwBvVBAwk/edit#gid=2030865217)
 [Excel 2](https://docs.google.com/spreadsheets/d/1T1NkYQs8Z000cRWlfgMSpMzMzqPoMcqKjnacRHsKHY8/edit#gid=0)
-
-
-
->>>>>>> new
